@@ -75,17 +75,17 @@ client.on('messageCreate', async message => {
       .setTitle('Comandos Disponibles')
       .setDescription('Lista de comandos que puedes usar:')
       .addFields(
-        { name: '!dolaroficial', value: 'Cotización del Dólar Oficial' },
-        { name: '!dolarblue', value: 'Cotización del Dólar Blue' },
-        { name: '!dolarbolsa', value: 'Cotización del Dólar Bolsa' },
-        { name: '!dolarccl', value: 'Cotización del Dólar CCL' },
-        { name: '!dolartarjeta', value: 'Cotización del Dólar Tarjeta' },
-        { name: '!dolarmayorista', value: 'Cotización del Dólar Mayorista' },
-        { name: '!dolarcripto', value: 'Cotización del Dólar Cripto' },
-        { name: '!euro', value: 'Cotización del Euro' },
-        { name: '!real', value: 'Cotización del Real Brasileño' },
-        { name: '!pesochileno', value: 'Cotización del Peso Chileno' },
-        { name: '!pesouruguayo', value: 'Cotización del Peso Uruguayo' }
+        { name: '=dolaroficial', value: 'Cotización del Dólar Oficial' },
+        { name: '=dolarblue', value: 'Cotización del Dólar Blue' },
+        { name: '=dolarbolsa', value: 'Cotización del Dólar Bolsa' },
+        { name: '=dolarccl', value: 'Cotización del Dólar CCL' },
+        { name: '=dolartarjeta', value: 'Cotización del Dólar Tarjeta' },
+        { name: '=dolarmayorista', value: 'Cotización del Dólar Mayorista' },
+        { name: '=dolarcripto', value: 'Cotización del Dólar Cripto' },
+        { name: '=euro', value: 'Cotización del Euro' },
+        { name: '=real', value: 'Cotización del Real Brasileño' },
+        { name: '=pesochileno', value: 'Cotización del Peso Chileno' },
+        { name: '=pesouruguayo', value: 'Cotización del Peso Uruguayo' }
       );
     message.channel.send({ embeds: [helpEmbed] });
     return;
